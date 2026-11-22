@@ -1,0 +1,38 @@
+{
+  "total_raw_rows": 185,
+  "duplicate_rows_removed": 2,
+  "missing_values": {
+    "total": 4,
+    "by_column": {
+      "order_id": 0,
+      "customer_id": 2,
+      "customer_name": 1,
+      "customer_email": 1,
+      "order_date": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "unit_price": 0
+    }
+  },
+  "invalid_data_types_found": {
+    "total": 2,
+    "by_column": {
+      "order_id": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "quantity": 1,
+      "unit_price": 1
+    }
+  },
+  "invalid_dates": 1,
+  "invalid_product_ids": 1,
+  "invalid_quantities": 2,
+  "invalid_prices": 1,
+  "historical_sale_price_rows_retained": 72,
+  "conflicting_order_rows": 2,
+  "duplicate_order_item_rows_consolidated": 1,
+  "rows_corrected": 7,
+  "rejected_rows": 9,
+  "rows_removed": 12,
+  "final_cleaned_row_count": 173
+}
